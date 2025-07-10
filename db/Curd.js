@@ -520,6 +520,7 @@ exports.updateOrderReviewsByUser = async (
     return false;
   }
 };
+//this is the updated function
 exports.getAllReviewForFood = async (mealid) => {
   const ref = db.ref(`reviews/${mealid}`);
   return await ref
